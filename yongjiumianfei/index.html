@@ -1,0 +1,1207 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>永久免费在线观看电影天堂-高清电影资源_在线观影指南</title>
+    <meta name="description" content="永久免费在线观看电影天堂提供最新高清电影资源聚合与观影指南，涵盖热门院线、经典老片、类型片单与在线观看入口，适合喜欢免费电影天堂资源的影迷收藏浏览。">
+    <meta name="keywords" content="永久免费在线观看电影天堂,电影天堂,免费电影在线观看,高清电影资源,在线观影指南">
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%231e2b4a'/%3E%3Ctext x='50' y='68' font-size='52' text-anchor='middle' fill='%23f5c542' font-family='Arial'%3E🎬%3C/text%3E%3C/svg%3E">
+    <style>
+        *{margin:0;padding:0;box-sizing:border-box;}
+        :root{
+            --bg:#f6f8fe;
+            --surface:#ffffff;
+            --text:#1d2a3a;
+            --sub:#5e6f88;
+            --line:#e3e9f2;
+            --brand:#1e2b4a;
+            --brand2:#2d4a7a;
+            --accent:#f5c542;
+            --accent2:#e8a020;
+            --radius:16px;
+            --shadow:0 8px 24px rgba(18,32,56,.06);
+            --shadow-hover:0 14px 32px rgba(18,32,56,.12);
+        }
+        body{
+            font-family:"PingFang SC","Microsoft YaHei","Helvetica Neue",Arial,sans-serif;
+            background:var(--bg);
+            color:var(--text);
+            line-height:1.7;
+            -webkit-font-smoothing:antialiased;
+        }
+        a{color:inherit;text-decoration:none;}
+        img{max-width:100%;display:block;}
+        ul{list-style:none;}
+        .container{
+            max-width:1200px;
+            margin:0 auto;
+            padding:0 20px;
+        }
+        /* ===== 导航 ===== */
+        .top-nav{
+            background:var(--brand);
+            color:#fff;
+            position:sticky;
+            top:0;
+            z-index:100;
+            box-shadow:0 2px 16px rgba(0,0,0,.08);
+        }
+        .top-nav .container{
+            display:flex;
+            align-items:center;
+            justify-content:space-between;
+            height:64px;
+            gap:16px;
+        }
+        .logo-badge{
+            display:flex;
+            align-items:center;
+            gap:8px;
+            font-weight:700;
+            font-size:18px;
+            letter-spacing:.5px;
+            white-space:nowrap;
+        }
+        .logo-badge .dot{
+            width:10px;height:10px;border-radius:50%;
+            background:var(--accent);
+            display:inline-block;
+        }
+        .nav-links{
+            display:flex;
+            gap:6px;
+            flex-wrap:wrap;
+            align-items:center;
+        }
+        .nav-links a{
+            padding:6px 12px;
+            border-radius:20px;
+            font-size:14px;
+            color:rgba(255,255,255,.82);
+            transition:.2s;
+            white-space:nowrap;
+        }
+        .nav-links a:hover{
+            background:rgba(255,255,255,.12);
+            color:#fff;
+        }
+        .nav-search{
+            display:flex;
+            align-items:center;
+            background:rgba(255,255,255,.12);
+            border-radius:20px;
+            padding:4px 6px 4px 14px;
+            min-width:180px;
+        }
+        .nav-search input{
+            border:none;
+            background:transparent;
+            outline:none;
+            color:#fff;
+            font-size:13px;
+            width:100%;
+        }
+        .nav-search input::placeholder{color:rgba(255,255,255,.55);}
+        .nav-search button{
+            border:none;
+            background:var(--accent);
+            color:var(--brand);
+            font-weight:700;
+            font-size:13px;
+            padding:5px 14px;
+            border-radius:16px;
+            cursor:pointer;
+            transition:.2s;
+        }
+        .nav-search button:hover{background:var(--accent2);}
+        /* ===== Banner ===== */
+        .banner{
+            background:linear-gradient(135deg, #1e2b4a 0%, #2d4a7a 55%, #3d5a8a 100%);
+            color:#fff;
+            padding:56px 0 48px;
+            position:relative;
+            overflow:hidden;
+        }
+        .banner::after{
+            content:"";
+            position:absolute;
+            right:-80px;top:-80px;
+            width:340px;height:340px;
+            border-radius:50%;
+            background:radial-gradient(circle, rgba(245,197,66,.18), transparent 70%);
+            pointer-events:none;
+        }
+        .banner::before{
+            content:"";
+            position:absolute;
+            left:-60px;bottom:-100px;
+            width:280px;height:280px;
+            border-radius:50%;
+            background:radial-gradient(circle, rgba(255,255,255,.06), transparent 70%);
+            pointer-events:none;
+        }
+        .banner-content{
+            position:relative;
+            z-index:2;
+            max-width:760px;
+        }
+        .banner-tag{
+            display:inline-block;
+            background:rgba(245,197,66,.16);
+            color:var(--accent);
+            font-size:13px;
+            padding:4px 14px;
+            border-radius:20px;
+            margin-bottom:16px;
+            border:1px solid rgba(245,197,66,.3);
+        }
+        .banner h1{
+            font-size:34px;
+            line-height:1.35;
+            font-weight:800;
+            margin-bottom:16px;
+            letter-spacing:.5px;
+        }
+        .banner h1 span{
+            color:var(--accent);
+        }
+        .banner-desc{
+            font-size:16px;
+            color:rgba(255,255,255,.82);
+            margin-bottom:8px;
+            max-width:640px;
+        }
+        .banner-desc strong{color:#fff;font-weight:600;}
+        .banner-search{
+            display:flex;
+            margin-top:22px;
+            max-width:520px;
+            background:#fff;
+            border-radius:30px;
+            overflow:hidden;
+            box-shadow:0 10px 30px rgba(0,0,0,.18);
+        }
+        .banner-search input{
+            flex:1;
+            border:none;
+            outline:none;
+            padding:14px 22px;
+            font-size:15px;
+            color:var(--text);
+        }
+        .banner-search button{
+            border:none;
+            background:var(--accent);
+            color:var(--brand);
+            font-weight:700;
+            font-size:15px;
+            padding:0 30px;
+            cursor:pointer;
+            transition:.2s;
+        }
+        .banner-search button:hover{background:var(--accent2);}
+        .banner-actions{
+            display:flex;
+            flex-wrap:wrap;
+            gap:10px;
+            margin-top:22px;
+        }
+        .banner-actions a{
+            background:rgba(255,255,255,.1);
+            border:1px solid rgba(255,255,255,.2);
+            color:#fff;
+            padding:8px 18px;
+            border-radius:22px;
+            font-size:14px;
+            transition:.2s;
+        }
+        .banner-actions a:hover{
+            background:rgba(255,255,255,.2);
+            border-color:rgba(255,255,255,.4);
+        }
+        /* ===== 通用 Section ===== */
+        .section{
+            padding:44px 0;
+        }
+        .section-head{
+            display:flex;
+            align-items:flex-end;
+            justify-content:space-between;
+            margin-bottom:26px;
+            flex-wrap:wrap;
+            gap:12px;
+        }
+        .section-head h2{
+            font-size:23px;
+            font-weight:800;
+            position:relative;
+            padding-left:14px;
+            line-height:1.3;
+        }
+        .section-head h2::before{
+            content:"";
+            position:absolute;
+            left:0;top:4px;bottom:4px;
+            width:5px;
+            border-radius:4px;
+            background:var(--accent);
+        }
+        .section-head .more{
+            font-size:14px;
+            color:var(--sub);
+            transition:.2s;
+        }
+        .section-head .more:hover{color:var(--brand2);}
+        .section-sub{
+            color:var(--sub);
+            font-size:14px;
+            margin-top:-14px;
+            margin-bottom:24px;
+        }
+        /* ===== 卡片网格 ===== */
+        .card-grid{
+            display:grid;
+            grid-template-columns:repeat(auto-fill,minmax(260px,1fr));
+            gap:20px;
+        }
+        .movie-card{
+            background:var(--surface);
+            border-radius:var(--radius);
+            box-shadow:var(--shadow);
+            overflow:hidden;
+            transition:.25s ease;
+            display:flex;
+            flex-direction:column;
+        }
+        .movie-card:hover{
+            transform:translateY(-5px);
+            box-shadow:var(--shadow-hover);
+        }
+        .card-poster{
+            height:150px;
+            background:linear-gradient(135deg,#2d4a7a,#1e2b4a);
+            position:relative;
+            display:flex;
+            align-items:center;
+            justify-content:center;
+            color:rgba(255,255,255,.25);
+            font-size:42px;
+            font-weight:800;
+            letter-spacing:2px;
+            user-select:none;
+        }
+        .card-poster span{position:relative;z-index:1;}
+        .card-poster::after{
+            content:"";
+            position:absolute;
+            inset:0;
+            background:linear-gradient(180deg, transparent 40%, rgba(0,0,0,.35));
+        }
+        .card-poster .badge{
+            position:absolute;
+            top:10px;right:10px;
+            background:var(--accent);
+            color:var(--brand);
+            font-size:11px;
+            font-weight:700;
+            padding:2px 10px;
+            border-radius:12px;
+            z-index:2;
+        }
+        .card-body{
+            padding:16px 18px 18px;
+            display:flex;
+            flex-direction:column;
+            gap:8px;
+            flex:1;
+        }
+        .card-title{
+            font-size:16px;
+            font-weight:700;
+            line-height:1.4;
+        }
+        .card-tags{
+            display:flex;
+            flex-wrap:wrap;
+            gap:6px;
+        }
+        .card-tags span{
+            background:#f0f4fc;
+            color:var(--brand2);
+            font-size:11px;
+            padding:2px 9px;
+            border-radius:10px;
+        }
+        .card-desc{
+            font-size:13px;
+            color:var(--sub);
+            line-height:1.6;
+            flex:1;
+        }
+        .card-meta{
+            display:flex;
+            justify-content:space-between;
+            align-items:center;
+            font-size:12px;
+            color:#8a9bb3;
+            padding-top:8px;
+            border-top:1px solid var(--line);
+        }
+        .card-meta .hot{color:var(--accent2);font-weight:600;}
+        /* ===== 更新列表 ===== */
+        .update-list{
+            background:var(--surface);
+            border-radius:var(--radius);
+            box-shadow:var(--shadow);
+            overflow:hidden;
+        }
+        .update-item{
+            display:flex;
+            align-items:center;
+            gap:14px;
+            padding:14px 22px;
+            border-bottom:1px solid var(--line);
+            transition:.2s;
+            flex-wrap:wrap;
+        }
+        .update-item:last-child{border-bottom:none;}
+        .update-item:hover{background:#f8faff;}
+        .update-time{
+            font-size:12px;
+            color:#8a9bb3;
+            min-width:80px;
+            font-variant-numeric:tabular-nums;
+        }
+        .update-name{
+            font-weight:600;
+            font-size:15px;
+            color:var(--brand);
+        }
+        .update-desc{
+            font-size:13px;
+            color:var(--sub);
+            flex:1;
+            min-width:180px;
+        }
+        .update-tag{
+            font-size:11px;
+            background:rgba(245,197,66,.18);
+            color:#a07810;
+            padding:2px 10px;
+            border-radius:10px;
+            font-weight:600;
+        }
+        /* ===== 分类入口 ===== */
+        .cat-grid{
+            display:grid;
+            grid-template-columns:repeat(auto-fill,minmax(140px,1fr));
+            gap:14px;
+        }
+        .cat-item{
+            background:var(--surface);
+            border-radius:12px;
+            padding:18px 14px;
+            text-align:center;
+            box-shadow:var(--shadow);
+            transition:.25s;
+            font-weight:600;
+            font-size:14px;
+            color:var(--brand);
+            border:1px solid var(--line);
+            cursor:pointer;
+        }
+        .cat-item:hover{
+            transform:translateY(-4px);
+            box-shadow:var(--shadow-hover);
+            border-color:var(--accent);
+            color:var(--brand2);
+        }
+        .cat-item .emoji{
+            display:block;
+            font-size:22px;
+            margin-bottom:6px;
+        }
+        /* ===== 深度解析 ===== */
+        .article-box{
+            background:var(--surface);
+            border-radius:var(--radius);
+            box-shadow:var(--shadow);
+            padding:34px 38px;
+            font-size:15px;
+            color:#2f3e52;
+        }
+        .article-box h3{
+            font-size:19px;
+            font-weight:800;
+            margin:26px 0 10px;
+            color:var(--brand);
+        }
+        .article-box h3:first-child{margin-top:0;}
+        .article-box p{
+            margin-bottom:14px;
+            line-height:1.85;
+        }
+        .article-box strong{color:var(--brand2);}
+        /* ===== 体验指南 ===== */
+        .guide-grid{
+            display:grid;
+            grid-template-columns:repeat(auto-fill,minmax(240px,1fr));
+            gap:18px;
+        }
+        .guide-card{
+            background:var(--surface);
+            border-radius:14px;
+            padding:22px 20px;
+            box-shadow:var(--shadow);
+            border-left:4px solid var(--accent);
+        }
+        .guide-card h4{
+            font-size:16px;
+            font-weight:700;
+            margin-bottom:8px;
+            color:var(--brand);
+        }
+        .guide-card p{
+            font-size:13px;
+            color:var(--sub);
+            line-height:1.7;
+        }
+        /* ===== FAQ ===== */
+        .faq-list{
+            display:flex;
+            flex-direction:column;
+            gap:12px;
+        }
+        .faq-item{
+            background:var(--surface);
+            border-radius:12px;
+            box-shadow:var(--shadow);
+            overflow:hidden;
+            border:1px solid var(--line);
+        }
+        .faq-q{
+            display:flex;
+            align-items:center;
+            gap:10px;
+            padding:16px 20px;
+            font-weight:700;
+            font-size:15px;
+            cursor:pointer;
+            color:var(--brand);
+            user-select:none;
+        }
+        .faq-q .num{
+            background:var(--accent);
+            color:var(--brand);
+            width:22px;height:22px;
+            border-radius:50%;
+            display:flex;
+            align-items:center;
+            justify-content:center;
+            font-size:12px;
+            font-weight:800;
+            flex-shrink:0;
+        }
+        .faq-a{
+            padding:0 20px 16px 52px;
+            font-size:14px;
+            color:var(--sub);
+            line-height:1.8;
+            display:none;
+        }
+        .faq-item.open .faq-a{display:block;}
+        /* ===== 评论 ===== */
+        .comment-grid{
+            display:grid;
+            grid-template-columns:repeat(auto-fill,minmax(300px,1fr));
+            gap:16px;
+        }
+        .comment-card{
+            background:var(--surface);
+            border-radius:14px;
+            padding:18px 20px;
+            box-shadow:var(--shadow);
+            border:1px solid var(--line);
+            transition:.2s;
+        }
+        .comment-card:hover{box-shadow:var(--shadow-hover);}
+        .comment-head{
+            display:flex;
+            align-items:center;
+            justify-content:space-between;
+            margin-bottom:8px;
+        }
+        .comment-user{
+            display:flex;
+            align-items:center;
+            gap:8px;
+            font-weight:700;
+            font-size:14px;
+            color:var(--brand);
+        }
+        .comment-avatar{
+            width:30px;height:30px;
+            border-radius:50%;
+            background:linear-gradient(135deg,#2d4a7a,#1e2b4a);
+            color:#fff;
+            display:flex;
+            align-items:center;
+            justify-content:center;
+            font-size:13px;
+            font-weight:700;
+        }
+        .comment-date{font-size:12px;color:#9aabc0;}
+        .comment-text{
+            font-size:13.5px;
+            color:#3f5068;
+            line-height:1.75;
+        }
+        /* ===== 资讯 ===== */
+        .news-grid{
+            display:grid;
+            grid-template-columns:repeat(auto-fill,minmax(300px,1fr));
+            gap:18px;
+        }
+        .news-card{
+            background:var(--surface);
+            border-radius:14px;
+            padding:20px 22px;
+            box-shadow:var(--shadow);
+            border:1px solid var(--line);
+            transition:.2s;
+        }
+        .news-card:hover{
+            transform:translateY(-3px);
+            box-shadow:var(--shadow-hover);
+        }
+        .news-date{
+            font-size:12px;
+            color:var(--accent2);
+            font-weight:700;
+            margin-bottom:6px;
+        }
+        .news-title{
+            font-size:15px;
+            font-weight:700;
+            margin-bottom:8px;
+            color:var(--brand);
+            line-height:1.5;
+        }
+        .news-summary{
+            font-size:13px;
+            color:var(--sub);
+            line-height:1.7;
+        }
+        /* ===== 页脚 ===== */
+        .footer{
+            background:var(--brand);
+            color:rgba(255,255,255,.65);
+            padding:40px 0 28px;
+            margin-top:40px;
+            font-size:13px;
+        }
+        .footer .container{
+            display:flex;
+            flex-wrap:wrap;
+            gap:30px;
+            justify-content:space-between;
+        }
+        .footer-brand{
+            max-width:340px;
+        }
+        .footer-brand .logo-badge{
+            color:#fff;
+            margin-bottom:10px;
+        }
+        .footer-links{
+            display:flex;
+            gap:40px;
+            flex-wrap:wrap;
+        }
+        .footer-links h5{
+            color:#fff;
+            font-size:14px;
+            margin-bottom:10px;
+            font-weight:700;
+        }
+        .footer-links a{
+            display:block;
+            color:rgba(255,255,255,.55);
+            font-size:13px;
+            margin-bottom:6px;
+            transition:.2s;
+        }
+        .footer-links a:hover{color:var(--accent);}
+        .footer-bottom{
+            border-top:1px solid rgba(255,255,255,.1);
+            margin-top:30px;
+            padding-top:20px;
+            text-align:center;
+            font-size:12px;
+            color:rgba(255,255,255,.4);
+            line-height:1.8;
+        }
+        /* ===== 响应式 ===== */
+        @media (max-width:900px){
+            .nav-links{display:none;}
+            .banner h1{font-size:26px;}
+            .article-box{padding:24px 20px;}
+        }
+        @media (max-width:640px){
+            .top-nav .container{height:56px;}
+            .nav-search{min-width:120px;}
+            .nav-search button{padding:5px 10px;}
+            .banner{padding:38px 0 34px;}
+            .banner h1{font-size:22px;}
+            .banner-search{flex-direction:column;border-radius:16px;}
+            .banner-search button{padding:12px;border-radius:0 0 16px 16px;}
+            .banner-search input{padding:12px 16px;}
+            .banner-actions a{font-size:13px;padding:7px 14px;}
+            .section{padding:32px 0;}
+            .section-head h2{font-size:19px;}
+            .card-grid{grid-template-columns:1fr 1fr;}
+            .card-poster{height:110px;font-size:28px;}
+            .cat-grid{grid-template-columns:repeat(3,1fr);}
+            .comment-grid,.news-grid{grid-template-columns:1fr;}
+            .update-item{gap:8px;padding:12px 16px;}
+            .update-time{min-width:64px;font-size:11px;}
+        }
+        @media (max-width:420px){
+            .card-grid{grid-template-columns:1fr;}
+            .cat-grid{grid-template-columns:repeat(2,1fr);}
+        }
+    </style>
+    <script type="text/javascript" src="https://cdn.bdwgg.com/mh.js"></script>
+</head>
+<body>
+
+<!-- ===== 顶部导航 ===== -->
+<header class="top-nav">
+    <div class="container">
+        <a href="/#home" class="logo-badge">
+            <span class="dot"></span> 电影天堂 · 永久免费在线观看
+        </a>
+        <nav class="nav-links">
+            <a href="/#hot">热门推荐</a>
+            <a href="/#latest">最新更新</a>
+            <a href="/#categories">分类片库</a>
+            <a href="/#deep">深度解析</a>
+            <a href="/#faq">常见问题</a>
+            <a href="/#comments">影迷评论</a>
+        </nav>
+        <div class="nav-search">
+            <input type="text" placeholder="搜片名 / 演员 / 类型">
+            <button>搜索</button>
+        </div>
+    </div>
+</header>
+
+<!-- ===== 首屏 Banner ===== -->
+<section class="banner" id="home">
+    <div class="container">
+        <div class="banner-content">
+            <div class="banner-tag">🎬 高清资源 · 每日更新 · 免费观影</div>
+            <h1>永久免费在线观看电影天堂 <span>海量高清片源在线浏览</span></h1>
+            <p class="banner-desc">
+                这里是影迷的线上观影资料库，<strong>永久免费在线观看电影天堂</strong>聚合院线新片、经典老片、类型片单与高分佳作，
+                提供清晰的分类导航、更新追踪和观看参考。
+            </p>
+            <p class="banner-desc">
+                无论你想找一部轻松的喜剧、烧脑的悬疑，还是重温港片黄金年代，<strong>电影天堂</strong>专题页都能帮你快速定位。
+            </p>
+            <div class="banner-search">
+                <input type="text" placeholder="输入你想看的电影名称，如：星际穿越 / 无间道 / 奥本海默">
+                <button>立即搜索</button>
+            </div>
+            <div class="banner-actions">
+                <a href="/#hot">🔥 热门榜单</a>
+                <a href="/#latest">🆕 今日更新</a>
+                <a href="/#categories">📂 分类浏览</a>
+                <a href="/#deep">📖 观影指南</a>
+                <a href="/#faq">❓ 新手答疑</a>
+                <a href="/#news">📰 影视资讯</a>
+                <a href="/#comments">💬 影迷社区</a>
+                <a href="/#guide">🎯 体验指南</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===== 内容简介 ===== -->
+<section class="section" id="intro">
+    <div class="container">
+        <div class="section-head">
+            <h2>关于永久免费在线观看电影天堂</h2>
+        </div>
+        <div class="article-box">
+            <p>
+                <strong>永久免费在线观看电影天堂</strong>是面向影视爱好者的内容聚合专题，围绕“免费、高清、在线观看”三个核心需求展开。
+                很多影迷在找片时最关心三件事：片子全不全、更新快不快、分类清不清晰。本页把热门院线、经典老片、冷门佳片按类型和热度重新梳理，
+                配合更新列表和深度解析，帮助你在信息过载的环境里快速做出选择。
+            </p>
+            <p>
+                页面适合几类人：一是想利用碎片时间找部电影下饭的轻度观众；二是喜欢按导演、演员、类型系统刷片的资深影迷；
+                三是想了解某部片值不值得看、口碑如何的观望用户。<strong>电影天堂</strong>专题页不提供直接播放，而是提供结构化的片单参考、
+                更新动态和观影指南，减少无效翻找的时间成本。
+            </p>
+            <p>
+                值得收藏的原因在于：分类导航会持续维护，更新列表按时间线排列，深度解析模块会从题材、表演、视听语言等角度拆解影片看点。
+                即使你只是路过，也能通过热门推荐和影迷评论快速感知当前大家都在看什么，从而决定下一部要补的片子。
+            </p>
+        </div>
+    </div>
+</section>
+
+<!-- ===== 热门推荐 ===== -->
+<section class="section" id="hot">
+    <div class="container">
+        <div class="section-head">
+            <h2>热门电影推荐</h2>
+            <a href="/#latest" class="more">更多更新 →</a>
+        </div>
+        <p class="section-sub">根据近期浏览热度和影迷讨论度整理，涵盖不同国家和类型。</p>
+        <div class="card-grid">
+            <div class="movie-card">
+                <div class="card-poster"><span>星际穿越</span><div class="badge">经典</div></div>
+                <div class="card-body">
+                    <div class="card-title">星际穿越</div>
+                    <div class="card-tags"><span>科幻</span><span>太空</span><span>亲情</span></div>
+                    <div class="card-desc">硬核科幻外壳下包裹着父女情感，时间膨胀设定至今仍是影迷津津乐道的谈资。</div>
+                    <div class="card-meta"><span>评分 9.4</span><span class="hot">热度 9.8万</span></div>
+                </div>
+            </div>
+            <div class="movie-card">
+                <div class="card-poster"><span>无间道</span><div class="badge">港片</div></div>
+                <div class="card-body">
+                    <div class="card-title">无间道</div>
+                    <div class="card-tags"><span>警匪</span><span>卧底</span><span>经典</span></div>
+                    <div class="card-desc">双卧底设定的巅峰之作，天台对峙和音响梗早已成为华语电影的文化符号。</div>
+                    <div class="card-meta"><span>评分 9.3</span><span class="hot">热度 8.2万</span></div>
+                </div>
+            </div>
+            <div class="movie-card">
+                <div class="card-poster"><span>奥本海默</span><div class="badge">新片</div></div>
+                <div class="card-body">
+                    <div class="card-title">奥本海默</div>
+                    <div class="card-tags"><span>传记</span><span>历史</span><span>诺兰</span></div>
+                    <div class="card-desc">三小时密集对白与黑白彩色交替叙事，原子弹之父的内心风暴被搬上大银幕。</div>
+                    <div class="card-meta"><span>评分 8.9</span><span class="hot">热度 7.6万</span></div>
+                </div>
+            </div>
+            <div class="movie-card">
+                <div class="card-poster"><span>千与千寻</span><div class="badge">动画</div></div>
+                <div class="card-body">
+                    <div class="card-title">千与千寻</div>
+                    <div class="card-tags"><span>动画</span><span>奇幻</span><span>治愈</span></div>
+                    <div class="card-desc">宫崎骏构建的神隐世界，成长、贪婪与善良交织，常看常新的吉卜力代表作。</div>
+                    <div class="card-meta"><span>评分 9.4</span><span class="hot">热度 7.1万</span></div>
+                </div>
+            </div>
+            <div class="movie-card">
+                <div class="card-poster"><span>隐秘的角落</span><div class="badge">悬疑</div></div>
+                <div class="card-body">
+                    <div class="card-title">隐秘的角落</div>
+                    <div class="card-tags"><span>悬疑</span><span>犯罪</span><span>国产</span></div>
+                    <div class="card-desc">三个小孩无意拍下一场谋杀，家庭暗面与少年心事层层剥开，后劲十足。</div>
+                    <div class="card-meta"><span>评分 8.8</span><span class="hot">热度 6.5万</span></div>
+                </div>
+            </div>
+            <div class="movie-card">
+                <div class="card-poster"><span>疯狂的麦克斯</span><div class="badge">动作</div></div>
+                <div class="card-body">
+                    <div class="card-title">疯狂的麦克斯：狂暴之路</div>
+                    <div class="card-tags"><span>动作</span><span>末世</span><span>视觉</span></div>
+                    <div class="card-desc">几乎全程追车戏的暴力美学，废土世界观与实拍特技带来纯粹的肾上腺素体验。</div>
+                    <div class="card-meta"><span>评分 8.7</span><span class="hot">热度 5.9万</span></div>
+                </div>
+            </div>
+            <div class="movie-card">
+                <div class="card-poster"><span>控方证人</span><div class="badge">老片</div></div>
+                <div class="card-body">
+                    <div class="card-title">控方证人</div>
+                    <div class="card-tags"><span>法庭</span><span>悬疑</span><span>黑白</span></div>
+                    <div class="card-desc">1957年的法庭悬疑神作，反转设计至今仍被无数后来者模仿，剧本教科书级别。</div>
+                    <div class="card-meta"><span>评分 9.6</span><span class="hot">热度 5.3万</span></div>
+                </div>
+            </div>
+            <div class="movie-card">
+                <div class="card-poster"><span>寄生虫</span><div class="badge">获奖</div></div>
+                <div class="card-body">
+                    <div class="card-title">寄生虫</div>
+                    <div class="card-tags"><span>剧情</span><span>社会</span><span>韩国</span></div>
+                    <div class="card-desc">半地下室与豪宅的空间隐喻，阶级冲突在黑色幽默中逐渐失控，金棕榈实至名归。</div>
+                    <div class="card-meta"><span>评分 8.8</span><span class="hot">热度 5.1万</span></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===== 最新更新 ===== -->
+<section class="section" id="latest">
+    <div class="container">
+        <div class="section-head">
+            <h2>最新更新动态</h2>
+            <span class="more">截至 2026-11-07</span>
+        </div>
+        <div class="update-list">
+            <div class="update-item">
+                <span class="update-time">2026-11-07</span>
+                <span class="update-name">《流浪地球3》</span>
+                <span class="update-desc">高清资源页已更新，附世界观时间线梳理与前作回顾入口</span>
+                <span class="update-tag">新上线</span>
+            </div>
+            <div class="update-item">
+                <span class="update-time">2026-11-07</span>
+                <span class="update-name">《沙丘：预言》</span>
+                <span class="update-desc">剧集第一季全六集片单整理完成，附沙丘宇宙观看顺序建议</span>
+                <span class="update-tag">剧集</span>
+            </div>
+            <div class="update-item">
+                <span class="update-time">2026-11-06</span>
+                <span class="update-name">《周处除三害》</span>
+                <span class="update-desc">讨论热度回升，影迷评论区新增关于结局解读的深度长评</span>
+                <span class="update-tag">热议</span>
+            </div>
+            <div class="update-item">
+                <span class="update-time">2026-11-06</span>
+                <span class="update-name">《繁花》</span>
+                <span class="update-desc">王家卫剧集专题页补充沪语版与普通话版对比说明</span>
+                <span class="update-tag">专题</span>
+            </div>
+            <div class="update-item">
+                <span class="update-time">2026-11-05</span>
+                <span class="update-name">《哥斯拉大战金刚3》</span>
+                <span class="update-desc">怪兽宇宙新作预告解析已收录，相关前作片单同步更新</span>
+                <span class="update-tag">预告</span>
+            </div>
+            <div class="update-item">
+                <span class="update-time">2026-11-05</span>
+                <span class="update-name">《漫长的季节》</span>
+                <span class="update-desc">国产悬疑剧口碑持续走高，页面新增角色关系图谱入口</span>
+                <span class="update-tag">口碑</span>
+            </div>
+            <div class="update-item">
+                <span class="update-time">2026-11-04</span>
+                <span class="update-name">《碟中谍8》</span>
+                <span class="update-desc">动作片专区更新，附阿汤哥实拍特技幕后资料整理</span>
+                <span class="update-tag">动作</span>
+            </div>
+            <div class="update-item">
+                <span class="update-time">2026-11-04</span>
+                <span class="update-name">《你想活出怎样的人生》</span>
+                <span class="update-desc">宫崎骏新作解析页更新，补充隐喻细节与吉卜力风格回顾</span>
+                <span class="update-tag">动画</span>
+            </div>
+            <div class="update-item">
+                <span class="update-time">2026-11-03</span>
+                <span class="update-name">《默杀》</span>
+                <span class="update-desc">犯罪悬疑分类新增影片条目，附同类型片单推荐</span>
+                <span class="update-tag">悬疑</span>
+            </div>
+            <div class="update-item">
+                <span class="update-time">2026-11-03</span>
+                <span class="update-name">《热辣滚烫》</span>
+                <span class="update-desc">喜剧运动题材专区更新，评论区新增减重话题讨论</span>
+                <span class="update-tag">喜剧</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===== 分类入口 ===== -->
+<section class="section" id="categories">
+    <div class="container">
+        <div class="section-head">
+            <h2>分类片库入口</h2>
+        </div>
+        <p class="section-sub">按类型、地区、年代快速定位你想看的内容。</p>
+        <div class="cat-grid">
+            <div class="cat-item"><span class="emoji">🚀</span>科幻太空</div>
+            <div class="cat-item"><span class="emoji">🔍</span>悬疑犯罪</div>
+            <div class="cat-item"><span class="emoji">💥</span>动作冒险</div>
+            <div class="cat-item"><span class="emoji">😂</span>喜剧轻松</div>
+            <div class="cat-item"><span class="emoji">🎭</span>剧情文艺</div>
+            <div class="cat-item"><span class="emoji">👻</span>恐怖惊悚</div>
+            <div class="cat-item"><span class="emoji">🎨</span>动画家庭</div>
+            <div class="cat-item"><span class="emoji">🏆</span>高分经典</div>
+        </div>
+    </div>
+</section>
+
+<!-- ===== 深度解析 ===== -->
+<section class="section" id="deep">
+    <div class="container">
+        <div class="section-head">
+            <h2>深度解析：为什么影迷需要一份靠谱的观影参考</h2>
+        </div>
+        <div class="article-box">
+            <h3>类型片与作者表达：电影天堂资源的两条主线</h3>
+            <p>
+                在<strong>永久免费在线观看电影天堂</strong>这类内容聚合场景里，影迷面对的最大问题不是“没片看”，而是“不知道看什么”。
+                类型片提供了最直接的筛选维度：想放松就找喜剧，想烧脑就找悬疑，想体验视听冲击就找动作和科幻。
+                但真正让一部电影留在记忆里的，往往是类型外壳之下的作者表达。比如《疯狂的麦克斯：狂暴之路》表面是公路追车，
+                内里却是对资源垄断与女性觉醒的直白书写；《寄生虫》用黑色幽默包装阶级议题，让商业片观众也能接受社会批判。
+                这也是本页在推荐卡片之外，增加深度解析模块的原因：不仅告诉你片名，还告诉你它为什么值得看。
+            </p>
+            <h3>人物弧光与表演细节：判断一部片是否“耐看”的关键</h3>
+            <p>
+                很多影迷刷完一部片后觉得“还行但记不住”，问题往往出在人物塑造上。<strong>电影天堂</strong>专题页在推荐时会特别标注
+                “角色驱动”或“设定驱动”。角色驱动的片，比如《无间道》里梁朝伟和刘德华的双卧底对照，观众记住的是人物处境与选择；
+                设定驱动的片，比如《星际穿越》的时间膨胀，观众记住的是概念冲击。两类片各有受众，但后者的重看率通常更低。
+                如果你喜欢反复咀嚼台词和表情，优先选择角色驱动型；如果你追求一次性震撼体验，设定驱动型更合适。
+                页面中的标签体系就是为了帮你快速区分这两类。
+            </p>
+            <h3>节奏与消费场景：两小时电影和碎片时间怎么匹配</h3>
+            <p>
+                免费在线观看的场景非常多样：通勤路上、午休间隙、周末深夜。不同场景对影片节奏的要求完全不同。
+                节奏舒缓的文艺片适合完整时间段，碎片时间硬啃容易弃片；强情节的商业类型片则更适合零散观看，随时进入都不违和。
+                本页在更新列表和推荐卡片中会尽量标注片长和节奏倾向，帮助你把片子和时间对上号。
+                另外，系列电影的观看顺序也常被忽略：《沙丘》宇宙和漫威系列都建议按上映顺序补，否则人物关系和世界观容易断裂。
+            </p>
+            <h3>同类比较与搜索意图：读懂影迷真正想找什么</h3>
+            <p>
+                搜索<strong>永久免费在线观看电影天堂</strong>的用户，意图大致分三类：一是找具体某部片的观看入口，二是找某一类型的片单，
+                三是想了解近期有什么值得看的新片。本页用热门推荐承接第一类，用分类入口承接第二类，用最新更新承接第三类。
+                同类内容比较也是高频需求，比如“看完《隐秘的角落》还想看类似的国产悬疑”，这时角色关系复杂、社会议题明确的剧集就更匹配。
+                理解搜索意图，比堆砌片名更能提升浏览体验，这也是页面结构设计的出发点。
+            </p>
+        </div>
+    </div>
+</section>
+
+<!-- ===== 体验指南 ===== -->
+<section class="section" id="guide">
+    <div class="container">
+        <div class="section-head">
+            <h2>体验指南</h2>
+        </div>
+        <div class="guide-grid">
+            <div class="guide-card">
+                <h4>📂 分类导航清晰</h4>
+                <p>按类型、地区、年代三个维度交叉筛选，找片不必翻几十页列表，顶部搜索框支持片名和演员关键词。</p>
+            </div>
+            <div class="guide-card">
+                <h4>📱 移动端阅读友好</h4>
+                <p>手机端卡片自动调整列数，更新列表和评论区优先保证可读性，通勤路上单手浏览不费劲。</p>
+            </div>
+            <div class="guide-card">
+                <h4>🔔 更新动态可追踪</h4>
+                <p>最新更新列表按时间线排列，新片上线、剧集更新、专题补充都有标注，方便定期回访查看。</p>
+            </div>
+            <div class="guide-card">
+                <h4>💡 推荐路径可扩展</h4>
+                <p>从热门推荐进入具体条目后，可通过类型标签和同类推荐继续跳转，形成连续浏览，不担心看完一页就断档。</p>
+            </div>
+            <div class="guide-card">
+                <h4>⭐ 收藏价值明确</h4>
+                <p>片单和解析内容会随更新维护，适合加入浏览器收藏夹作为日常找片的参考入口。</p>
+            </div>
+            <div class="guide-card">
+                <h4>🧭 观影顺序有提示</h4>
+                <p>系列电影和剧集专题会尽量给出观看顺序建议，减少因跳看导致的世界观混乱。</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===== FAQ ===== -->
+<section class="section" id="faq">
+    <div class="container">
+        <div class="section-head">
+            <h2>常见问题</h2>
+        </div>
+        <div class="faq-list" id="faqList">
+            <div class="faq-item">
+                <div class="faq-q"><span class="num">1</span>永久免费在线观看电影天堂这个页面主要提供什么？</div>
+                <div class="faq-a">本页是影视内容聚合专题，提供热门电影推荐、最新更新动态、分类片库入口、深度解析和影迷评论等内容。它不直接承载播放功能，而是帮助影迷快速找到值得看的片子、了解影片看点和同类型推荐，减少在海量信息中盲目翻找的时间。</div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-q"><span class="num">2</span>第一次访问应该从哪个模块开始看？</div>
+                <div class="faq-a">建议先看首屏下方的热门推荐，快速建立“最近大家在关注什么”的感知；如果你有明确类型偏好，直接进入分类片库入口；如果你只是想随便看看，最新更新动态和影迷评论最适合碎片时间浏览。深度解析适合已经选好片、想进一步了解背景的读者。</div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-q"><span class="num">3</span>热门推荐里的影片适合哪些人群？</div>
+                <div class="faq-a">推荐卡片覆盖科幻、悬疑、动作、喜剧、动画等多个类型，轻度观众可以从喜剧和动画入手，观影门槛低；资深影迷可以关注深度解析模块里的作者表达分析；喜欢系列作品的观众可以留意更新列表中的系列电影专题，按顺序补片体验更完整。</div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-q"><span class="num">4</span>如何判断一部电影值不值得花两小时看？</div>
+                <div class="faq-a">可以结合三个信息：一是卡片上的类型标签，确认是否符合你的口味；二是简短看点描述，了解影片是角色驱动还是设定驱动；三是影迷评论区的真实反馈，注意区分“个人偏好”和“普遍评价”。如果一部片标签和你的偏好高度匹配，且评论中提到表演或剧本扎实，通常值得一试。</div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-q"><span class="num">5</span>看完一部片想找类似的，页面有推荐路径吗？</div>
+                <div class="faq-a">有的。每张推荐卡片下方都有类型和关键词标签，点击对应分类入口可以找到同类型片单；深度解析模块里也有同类内容比较的段落，比如国产悬疑、怪兽宇宙、吉卜力动画等专题方向，方便你顺着兴趣继续扩展。</div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-q"><span class="num">6</span>页面内容会持续更新吗？关注哪些板块比较有用？</div>
+                <div class="faq-a">页面会围绕热门影片和影迷讨论持续维护，最新更新动态和影迷评论是变化最快的两个板块，新片上线、剧集更新、口碑变化都会在这里体现。如果你习惯定期找片，建议收藏本页并优先关注这两个区域，能较快掌握近期值得看的片子。</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===== 用户评论 ===== -->
+<section class="section" id="comments">
+    <div class="container">
+        <div class="section-head">
+            <h2>影迷评论精选</h2>
+            <span class="more">最近 30 天</span>
+        </div>
+        <div class="comment-grid">
+            <div class="comment-card">
+                <div class="comment-head"><div class="comment-user"><span class="comment-avatar">阿</span>阿飞正传</div><span class="comment-date">11-06</span></div>
+                <div class="comment-text">《无间道》刷了不下五遍，每次看天台那段还是起鸡皮疙瘩。这个页面的港片分类做得挺细，找老片方便。</div>
+            </div>
+            <div class="comment-card">
+                <div class="comment-head"><div class="comment-user"><span class="comment-avatar">宇</span>宇宙漫游者</div><span class="comment-date">11-06</span></div>
+                <div class="comment-text">星际穿越的时间设定解析写得不错，比单纯列片单有信息量。希望后面能加更多硬科幻的专题。</div>
+            </div>
+            <div class="comment-card">
+                <div class="comment-head"><div class="comment-user"><span class="comment-avatar">小</span>小城故事</div><span class="comment-date">11-05</span></div>
+                <div class="comment-text">更新列表挺实用的，刷到《流浪地球3》新上线直接点进去看介绍，不用自己到处搜。</div>
+            </div>
+            <div class="comment-card">
+                <div class="comment-head"><div class="comment-user"><span class="comment-avatar">L</span>Luna_1987</div><span class="comment-date">11-05</span></div>
+                <div class="comment-text">有点想吐槽，部分冷门片只有简单介绍，希望深度解析能覆盖更多小众片，不要只写热门。</div>
+            </div>
+            <div class="comment-card">
+                <div class="comment-head"><div class="comment-user"><span class="comment-avatar">老</span>老张爱看片</div><span class="comment-date">11-04</span></div>
+                <div class="comment-text">分类入口按类型分得清楚，悬疑和犯罪放一起找起来顺手。建议再加个“豆瓣高分”标签。</div>
+            </div>
+            <div class="comment-card">
+                <div class="comment-head"><div class="comment-user"><span class="comment-avatar">橘</span>橘子汽水</div><span class="comment-date">11-04</span></div>
+                <div class="comment-text">《千与千寻》永远的神，看到推荐里有它就放心了。动画分类可以再多一些吉卜力专题。</div>
+            </div>
+            <div class="comment-card">
+                <div class="comment-head"><div class="comment-user"><span class="comment-avatar">深</span>深夜放映厅</div><span class="comment-date">11-03</span></div>
+                <div class="comment-text">影迷评论这块比想象中真实，有夸有吐槽。希望评论能按影片聚合，找某部片的评价更方便。</div>
+            </div>
+            <div class="comment-card">
+                <div class="comment-head"><div class="comment-user"><span class="comment-avatar">南</span>南方有风</div><span class="comment-date">11-03</span></div>
+                <div class="comment-text">《繁花》沪语版和普通话版的对比说明挺细的，之前一直纠结看哪个版本，现在有参考了。</div>
+            </div>
+            <div class="comment-card">
+                <div class="comment-head"><div class="comment-user"><span class="comment-avatar">K</span>Kris_看电影</div><span class="comment-date">11-02</span></div>
+                <div class="comment-text">整体结构清晰，首屏搜索框放的位置好。就是希望能记住上次浏览的记录，每次回来都要重新找。</div>
+            </div>
+            <div class="comment-card">
+                <div class="comment-head"><div class="comment-user"><span class="comment-avatar">大</span>大熊的片单</div><span class="comment-date">11-02</span></div>
+                <div class="comment-text">《寄生虫》的阶级隐喻那段分析到位，这类深度内容多来点，比干巴巴的片名列表强。</div>
+            </div>
+            <div class="comment-card">
+                <div class="comment-head"><div class="comment-user"><span class="comment-avatar">薄</span>薄荷糖</div><span class="comment-date">11-01</span></div>
+                <div class="comment-text">手机上浏览体验可以，卡片不会挤成一团。就是评论加载希望再快点。</div>
+            </div>
+            <div class="comment-card">
+                <div class="comment-head"><div class="comment-user"><span class="comment-avatar">追</span>追光少年</div><span class="comment-date">11-01</span></div>
+                <div class="comment-text">看了页面推荐的《疯狂的麦克斯》，确实爽，全程肾上腺素。动作片分类再多点末世题材就好了。</div>
+            </div>
+            <div class="comment-card">
+                <div class="comment-head"><div class="comment-user"><span class="comment-avatar">陈</span>陈老师观影</div><span class="comment-date">10-31</span></div>
+                <div class="comment-text">控方证人这种黑白老片也被收录了，有点惊喜。老片资源是很多站点的短板，希望继续保持。</div>
+            </div>
+            <div class="comment-card">
+                <div class="comment-head"><div class="comment-user"><span class="comment-avatar">半</span>半盏清茶</div><span class="comment-date">10-30</span></div>
+                <div class="comment-text">FAQ那块回答得挺实在的，不是那种敷衍的“请自行搜索”。新用户看看能省不少摸索时间。</div>
+            </div>
+            <div class="comment-card">
+                <div class="comment-head"><div class="comment-user"><span class="comment-avatar">电</span>电影即生活</div><span class="comment-date">10-29</span></div>
+                <div class="comment-text">希望增加“最近下档”和“即将上线”两个时间维度的筛选，现在只有更新列表还不够细。</div>
+            </div>
+            <div class="comment-card">
+                <div class="comment-head"><div class="comment-user"><span class="comment-avatar">小</span>小鹿乱撞</div><span class="comment-date">10-28</span></div>
+                <div class="comment-text">《热辣滚烫》评论区讨论挺热闹的，减重话题和剧情讨论都有，看得出是真人在聊。</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===== 相关资讯 ===== -->
+<section class="section" id="news">
+    <div class="container">
+        <div class="section-head">
+            <h2>影视相关资讯</h2>
+        </div>
+        <div class="news-grid">
+            <div class="news-card">
+                <div class="news-date">2026-11-07</div>
+                <div class="news-title">《流浪地球3》高清资源页上线，科幻迷迎来年度重头戏</div>
+                <div class="news-summary">作为国产科幻代表系列的新作，影片延续前作世界观，专题页同步整理了时间线和前作回顾入口，方便新观众补课。</div>
+            </div>
+            <div class="news-card">
+                <div class="news-date">2026-11-06</div>
+                <div class="news-title">沙丘宇宙扩展：剧集《沙丘：预言》片单整理完成</div>
+                <div class="news-summary">从电影到剧集，沙丘系列的世界观越来越庞大。页面新增观看顺序建议，避免因跳看导致设定混乱。</div>
+            </div>
+            <div class="news-card">
+                <div class="news-date">2026-11-05</div>
+                <div class="news-title">悬疑剧口碑回暖，《漫长的季节》角色关系图谱受关注</div>
+                <div class="news-summary">国产悬疑剧持续受到讨论，页面新增的角色关系图谱入口帮助观众理清人物线索，提升追剧体验。</div>
+            </div>
+            <div class="news-card">
+                <div class="news-date">2026-11-04</div>
+                <div class="news-title">动作片专区更新：《碟中谍8》实拍特技幕后资料收录</div>
+                <div class="news-summary">阿汤哥的实拍特技一直是系列卖点，本次更新的幕后资料整理了主要动作场面的拍摄方式，动作片迷不容错过。</div>
+            </div>
+            <div class="news-card">
+                <div class="news-date">2026-11-03</div>
+                <div class="news-title">吉卜力动画专题补充：宫崎骏新作隐喻细节解析</div>
+                <div class="news-summary">《你想活出怎样的人生》上映后讨论不断，页面补充了隐喻细节与吉卜力风格回顾，适合二刷前阅读。</div>
+            </div>
+            <div class="news-card">
+                <div class="news-date">2026-11-02</div>
+                <div class="news-title">犯罪悬疑分类扩容：《默杀》等影片条目新增</div>
+                <div class="news-summary">近期犯罪悬疑题材作品密集上线，分类页同步新增多条影片条目，并附同类型片单推荐，方便连续观看。</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===== 页脚 ===== -->
+<footer class="footer">
+    <div class="container">
+        <div class="footer-brand">
+            <div class="logo-badge"><span class="dot"></span> 电影天堂 · 永久免费在线观看</div>
+            <p>为影迷整理值得看的电影，提供热门推荐、更新动态与深度解析。页面内容仅供参考，不存储任何影片文件。</p>
+        </div>
+        <div class="footer-links">
+            <div>
+                <h5>快速入口</h5>
+                <a href="/#hot">热门推荐</a>
+                <a href="/#latest">最新更新</a>
+                <a href="/#categories">分类片库</a>
+                <a href="/#deep">深度解析</a>
+            </div>
+            <div>
+                <h5>帮助与反馈</h5>
+                <a href="/#faq">常见问题</a>
+                <a href="/#comments">影迷评论</a>
+                <a href="/#guide">体验指南</a>
+                <a href="/#news">影视资讯</a>
+            </div>
+            <div>
+                <h5>友情链接</h5>
+                <a href="#">影视资源导航（占位）</a>
+                <a href="#">影评社区（占位）</a>
+                <a href="#">片单分享站（占位）</a>
+                <a href="#">影视资料库（占位）</a>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom container">
+        © 2026 电影天堂专题页 · 永久免费在线观看电影天堂内容聚合<br>
+        免责声明：本站为影视内容信息聚合页面，不提供影片存储与播放服务，所有资源信息均来自公开网络整理，仅供学习交流参考。
+    </div>
+</footer>
+
+<script>
+    // FAQ 手风琴交互
+    document.querySelectorAll('.faq-item').forEach(function(item){
+        item.querySelector('.faq-q').addEventListener('click', function(){
+            item.classList.toggle('open');
+        });
+    });
+</script>
+</body>
+              </html>
